@@ -18,4 +18,4 @@ function authenticateToken(req, res, next) {
       authenticateToken
   }
 
-  //require('crypto').randomBytes(64).toString('hex')
+  //Create randım token with: require('crypto').randomBytes(64).toString('hex')
