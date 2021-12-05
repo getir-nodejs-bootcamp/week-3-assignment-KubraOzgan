@@ -1,4 +1,6 @@
-﻿# week-3-assignment
+Medium Yazım: https://medium.com/@kubraozgan/axios-and-express-dee37e537349
+
+# week-3-assignment
  
 Express js ile bir web server oluşturalım.
 
