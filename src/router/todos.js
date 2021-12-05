@@ -13,9 +13,11 @@ const toDos = [
   { id: 5, title: 'Prepare for the exam', completed: 'false' },
 ];
 
+//Use morgan for log info
 let logFile = fs.createWriteStream((__dirname, 'logs.log'), { flags: 'a' });
 router.use(morgan('combined', { stream: logFile }));
  
+// /todos
 router.get('/', (req, res) => {
   res.send(toDos);
 });
